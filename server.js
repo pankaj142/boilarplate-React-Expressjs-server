@@ -1,6 +1,6 @@
 const express =require("express");
 const app  =express();
-var port =5000;
+var port =8000;
 
 app.get("/api/ourResponsibilities", (req,res)=>{
 	const ourResponsibilities=[
